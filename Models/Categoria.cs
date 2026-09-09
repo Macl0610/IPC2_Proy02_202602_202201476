@@ -1,0 +1,12 @@
+﻿namespace Proyecto2.Models
+{
+    public class Categoria
+    {
+        public string Nombre { get; set; }
+
+        public Categoria(string nombre)
+        {
+            Nombre = nombre;
+        }
+    }
+}
